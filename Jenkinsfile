@@ -13,6 +13,7 @@ stages {
 
 	stage('Test') {
 	steps {
+		
 		echo "testing the application"
 	}
 	}
@@ -20,6 +21,7 @@ stages {
 	stage('Deploy')
 	{
 	steps {
+		sh 'python sample.py'
 		echo "deploying the application"
 		
 	}
