@@ -24,7 +24,7 @@ stages {
 		
 	}
 	}
-	stage('Test') {
+	stage('Final-Test') {
 	steps {
 		echo "testing the application"
 	}
