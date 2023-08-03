@@ -24,6 +24,11 @@ stages {
 		
 	}
 	}
+	stage('Test') {
+	steps {
+		echo "testing the application"
+	}
+	}
 }
 
 post {
