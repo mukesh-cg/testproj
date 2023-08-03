@@ -21,7 +21,7 @@ stages {
 	stage('Deploy')
 	{
 	steps {
-		sh 'python sample.py'
+		sh 'python3'
 		echo "deploying the application"
 		
 	}
