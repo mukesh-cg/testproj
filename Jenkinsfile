@@ -13,7 +13,6 @@ stages {
 
 	stage('Test') {
 	steps {
-		
 		input(id: "Deploy Gate", message: "Deploy ${params.project_name}?", ok: 'Deploy')
 	}
 	}
